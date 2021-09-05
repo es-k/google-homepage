@@ -1,0 +1,36 @@
+
+header {
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: end;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#gmail{
+    margin-right: 5px;
+}
+
+#login{
+    background-color: #1a73e8;
+    color: white;
+}
+body {
+    text-align: center;
+}
+
+#foogle{
+    margin-top: 8%;
+    height: 92px;
+    aspect-ratio: auto;
+}
+
+#search{
+    margin-top: 20px;
+    width: 64%;
+    height: 30px;
+}
+
+.buttons{
+    margin-top: 26px;
+}
