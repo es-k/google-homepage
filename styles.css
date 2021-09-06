@@ -17,6 +17,14 @@ header {
     justify-content: space-between;   
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
 main{
     text-align: center;
 }
@@ -33,7 +41,6 @@ main{
 
 
 #foogle{
-    margin-top: 8%;;
     width: 100%;
     max-width: 272px;
 }
@@ -63,7 +70,20 @@ input[type=submit]{
 }
 
 footer{
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #dadce0;
+    height: 46px;
+    width: 100wh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: auto;
+}
+
+footer a{
+    color: #70757a;
+}
+
+footer div{
+    padding: 15px
 }
