@@ -26,32 +26,28 @@ main{
     margin-right: 5px;
 }
 
-
 #login{
     background-color: #1a73e8;
     color: white;
 }
 
-.logo{
-    align-items: center;
-}
+
 #foogle{
-    justify-items: center;
     margin-top: 8%;;
     width: 100%;
     max-width: 272px;
 }
 .searchbar{
     margin: auto;
+    margin-top: 20px;
+
 }
 
-#search{
-    margin-top: 20px;
+input[type=text]{
     width: 100%;
     max-width: 500px;
     height: 28px;
     font-size: large;
-    background-color: transparent;
 }
 
 input[type=submit]{
