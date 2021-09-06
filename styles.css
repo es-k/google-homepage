@@ -20,15 +20,21 @@ body {
 
 #foogle{
     margin-top: 8%;
-    height: 92px;
-    aspect-ratio: auto;
+    width: 100%;
+    max-width: 272px;
+}
+
+.searchbar{
+    margin: auto;
 }
 
 #search{
     margin-top: 20px;
-    min-width: 64%;
-    height: 30px;
-    max-width: 560px;
+    width: 100%;
+    max-width: 500px;
+    height: 28px;
+    font-size: large;
+    background-color: transparent;
 }
 
 input[type=submit]{
