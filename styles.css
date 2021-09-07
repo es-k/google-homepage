@@ -57,11 +57,34 @@ main{
     max-width: 260px;
 }
 
+.searchbar{
+    width: 100%;
+    max-width: 500px;
+    height: 30px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#search-ico{
+    font-size: 20px;
+    color: #9aa0a6;
+}
+
+#mic{
+    height: 20px;
+}
+
+
+
 input[type=text]{
     width: 100%;
     max-width: 430px;
     height: 28px;
     font-size: large;
+    border: 1px solid #f8f9fa10;
+    border-radius: 20px;
 }
 
 input[type=submit]{
