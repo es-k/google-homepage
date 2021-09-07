@@ -32,7 +32,6 @@ body {
     font-size: 13px;
 }
 
-
 a{
     text-decoration: none;
     color: black;
@@ -80,6 +79,7 @@ input[type=submit]{
 .buttons input{
     margin: 0px 5px 0px 5px;
 }
+
 footer{
     font-size: 14px;
     background-color: #f2f2f2;
@@ -93,6 +93,12 @@ footer{
     width: 100%;
 }
 
+@media only screen and (max-width: 1200px){
+    footer{
+        justify-content: space-evenly;
+    }
+}
+
 footer a{
     color: #70757a;
     padding: 0px 8px 0px 8px;
@@ -102,4 +108,3 @@ footer div{
     padding: 15px 26px 15px 26px;
     
 }
-
