@@ -5,7 +5,7 @@ header {
     justify-content: flex-end;   
 }
 
-header a{
+#top-links{
     padding: 5px 10px 0px 5px;
     color: #000000DE
 }
@@ -68,9 +68,15 @@ input[type=submit]{
     background-color: #f8f9fa;
     color: #3c4043;
     border: 1px solid #f8f9fa;
+    border-radius: 3px;
     font-size: 14px;
     padding: 0.5em 1em;
 }
+
+input[type=submit]:hovwe{
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 10%);
+}
+
 
 .buttons{
     margin-top: 20px;
