@@ -14,6 +14,7 @@ header span{
     font-family: 'Material Icons';
     font-size: 24px;
     color: #5f6368;
+    padding-left: 16px;
 }
 
 #gh-icon{
@@ -55,36 +56,48 @@ main{
 #foogle{
     width: 100%;
     max-width: 260px;
+    padding-top: 50px;
 }
 
 .searchbar{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    max-width: 500px;
+    max-width: 580px;
     height: 30px;
     margin: auto;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid hsl(213, 22%, 90%);
     border-radius: 20px;
+}
+
+.searchbar:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
 #search-ico{
     font-size: 20px;
     color: #9aa0a6;
+    padding: 5px 5px 5px 10px;
 }
 
 #mic{
     height: 20px;
+    padding: 5px 10px 5px 5px;
 }
 
 
 
 input[type=text]{
     width: 100%;
-    max-width: 430px;
+    max-width: 480px;
     height: 28px;
     font-size: large;
-    border: 1px solid #f8f9fa10;
-    border-radius: 20px;
+    border: none;
+}
+
+input[type=text]:focus{
+    outline: none;
 }
 
 input[type=submit]{
@@ -129,6 +142,16 @@ footer{
         justify-content: space-evenly;
     }
 }
+
+@media only screen and (max-height: 480px){
+    main{
+        margin-bottom: 20em;
+    }
+    footer{
+        position: relative;
+    }
+}
+
 
 footer a{
     color: #70757a;
