@@ -73,12 +73,17 @@ input[type=submit]{
     padding: 0.5em 1em;
 }
 
+.buttons{
+    margin-top: 20px;
+}
 
+.buttons input{
+    margin: 0px 5px 0px 5px;
+}
 footer{
     font-size: 14px;
     background-color: #f2f2f2;
     border: 1px solid #dadce0;
-    height: 46px;
     width: 100wh;
     display: flex;
     flex-wrap: wrap;
@@ -90,11 +95,11 @@ footer{
 
 footer a{
     color: #70757a;
+    padding: 0px 8px 0px 8px;
 }
 
 footer div{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 26px 15px 26px;
     
 }
 
