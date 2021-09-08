@@ -1,23 +1,35 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 header {
-    padding-top: 20px;
+    padding-top: 14px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;  
 }
 
-#top-links{
-    padding: 5px 10px 0px 5px;
+.top-links{
+    padding: 5px 0px 5px 0px;
     color: #000000DE
 }
 
+#images{
+    padding-left: 10px;
+}
 
 #gapps{
     font-family: 'Material Icons';
     font-size: 24px;
-    color: #5f6368;
+    color: #5f6368e8;
     margin-left: 16px;
-    padding: 8px;
+    padding: 5px;
     border-radius: 50%;;
 }
 
@@ -29,8 +41,8 @@ header {
     height: 100%;
     max-height: 32px;
     border-radius: 50%;
-    margin-left: 20px;;
-    margin-right: 20px;
+    margin-left: 16px;;
+    margin-right: 18px;
 }
 
 #gh-icon:hover{
@@ -44,17 +56,7 @@ body {
     font-size: 13px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
 main{
-    align-content: flex-start;
     text-align: center;
 }
 
